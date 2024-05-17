@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+@import url(https://fonts.bunny.net/css?family=bungee-shade:400);
+@import url(https://fonts.bunny.net/css?family=big-shoulders-stencil-text:400);
+@import url(https://fonts.bunny.net/css?family=dotgothic16:400);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Bungee Shade', display;
+}
+.location{font-family: 'Big Shoulders Stencil Text', display;
+}
+.weather {
+    font-size: 1rem;
+}
+
+/* Main content styles */
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+input[type="text"] {
+    flex-grow: 115;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #6200ea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 0.25rem;
+}
+
